@@ -19,6 +19,7 @@ public class Execution extends BaseClass{
 		BaseClass.loadUrl("https://www.flipkart.com/");
 		pg.search.sendKeys("watch");
 		pg.search.submit();
+		System.out.println("Clicked Submit button");
 		
 		
 	}
